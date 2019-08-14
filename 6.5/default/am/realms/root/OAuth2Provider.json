@@ -14,8 +14,8 @@
       "usePolicyEngineForScope" : false,
       "codeLifetime" : 120,
       "issueRefreshTokenOnRefreshedToken" : false,
-      "issueRefreshToken" : false,
-      "statelessTokensEnabled" : false
+      "issueRefreshToken" : true,
+      "statelessTokensEnabled" : true
     },
     "coreOIDCConfig" : {
       "supportedIDTokenEncryptionMethods" : [ "A256GCM", "A192GCM", "A128GCM", "A128CBC-HS256", "A192CBC-HS384", "A256CBC-HS512" ],
