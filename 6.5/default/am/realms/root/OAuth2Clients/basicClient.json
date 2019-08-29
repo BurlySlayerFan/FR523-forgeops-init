@@ -3,11 +3,11 @@
     "realm" : "/",
     "amsterVersion" : "6.5.1",
     "entityType" : "OAuth2Clients",
-    "entityId" : "myOAuth2Client",
+    "entityId" : "basicClient",
     "pathParams" : { }
   },
   "data" : {
-    "_id" : "myOAuth2Client",
+    "_id" : "basicClient",
     "signEncOAuth2ClientConfig" : {
       "idTokenEncryptionMethod" : "A128CBC-HS256",
       "jwkSet" : null,
@@ -33,13 +33,13 @@
       "clientJwtPublicKey" : null
     },
     "advancedOAuth2ClientConfig" : {
-      "grantTypes" : [ "authorization_code", "password", "refresh_token" ],
+      "grantTypes" : [ "authorization_code", "refresh_token", "password" ],
       "updateAccessToken" : null,
       "requestUris" : [ ],
       "clientUri" : [ ],
       "mixUpMitigation" : false,
       "logoUri" : [ ],
-      "tokenEndpointAuthMethod" : "client_secret_post",
+      "tokenEndpointAuthMethod" : "client_secret_basic",
       "sectorIdentifierUri" : null,
       "isConsentImplied" : false,
       "contacts" : [ ],
@@ -60,13 +60,13 @@
     },
     "coreOAuth2ClientConfig" : {
       "userpassword" : null,
-      "userpassword-encrypted" : "AAAAA0FFUwIQtbAaykDP7yneZzwv+nwjHBHxUUScpT5AlQ/10cu4QUx43dgRP+zoyQ==",
+      "userpassword-encrypted" : "AAAAA0FFUwIQ8XBNaDz/PLQK/oDSHmwJOI9rspcfpEOX60ZG4jrgc9reMaLPPLV3IA==",
       "authorizationCodeLifetime" : 0,
       "accessTokenLifetime" : 0,
       "defaultScopes" : [ ],
       "clientName" : [ ],
       "clientType" : "Confidential",
-      "scopes" : [ "profile" ],
+      "scopes" : [ "profile", "openid" ],
       "agentgroup" : null,
       "refreshTokenLifetime" : 0,
       "redirectionUris" : [ "http://www.google.co.uk" ],

@@ -9,9 +9,9 @@
   "data" : {
     "_id" : "LDAP",
     "authenticationLevel" : 0,
-    "searchScope" : "SUBTREE",
     "userBindPassword" : null,
-    "userBindPassword-encrypted" : "AAAAA0FFUwIQK36JoK68JYsmwkFWAv6/w6OuAnu6VvmD+a2ruMurzE9veX8+eVrIVQ==",
+    "userBindPassword-encrypted" : "AAAAA0FFUwIQZ7e+IWKBgvJ0ilKWTleN+osfsHdC7l+jNXcTRklvtKzwlQ5vhwi7Fg==",
+    "searchScope" : "SUBTREE",
     "returnUserDN" : true,
     "profileAttributeMappings" : [ ],
     "userBindDN" : "cn=Directory manager",

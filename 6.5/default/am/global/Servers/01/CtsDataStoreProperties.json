@@ -12,15 +12,15 @@
     "_id" : "01/properties/cts",
     "amconfig.org.forgerock.services.cts.store.common.section" : {
       "org.forgerock.services.cts.store.location" : {
-        "value" : "default",
+        "value" : "external",
         "inherited" : true
       },
       "org.forgerock.services.cts.store.root.suffix" : {
-        "value" : "",
+        "value" : "ou=famrecords,ou=openam-session,ou=tokens",
         "inherited" : true
       },
       "org.forgerock.services.cts.store.max.connections" : {
-        "value" : "10",
+        "value" : "17",
         "inherited" : true
       },
       "org.forgerock.services.cts.store.page.size" : {
@@ -34,27 +34,28 @@
     },
     "amconfig.org.forgerock.services.cts.store.external.section" : {
       "org.forgerock.services.cts.store.ssl.enabled" : {
-        "value" : "",
+        "value" : false,
         "inherited" : true
       },
       "org.forgerock.services.cts.store.directory.name" : {
-        "value" : "",
+        "value" : "ctsstore-0:1389",
         "inherited" : true
       },
       "org.forgerock.services.cts.store.loginid" : {
-        "value" : "",
+        "value" : "uid=openam_cts,ou=admins,ou=famrecords,ou=openam-session,ou=tokens",
         "inherited" : true
       },
       "org.forgerock.services.cts.store.password" : {
         "value" : null,
         "inherited" : true
       },
+      "org.forgerock.services.cts.store.password-encrypted" : "AAAAA0FFUwIQvjaMQvCUofj4ub0Awt/lL4B8AG3kHnZA+giJWjJfZAOYPl+LqEiLSQ==",
       "org.forgerock.services.cts.store.heartbeat" : {
         "value" : "10",
         "inherited" : true
       },
       "org.forgerock.services.cts.store.affinity.enabled" : {
-        "value" : null,
+        "value" : false,
         "inherited" : true
       }
     }
