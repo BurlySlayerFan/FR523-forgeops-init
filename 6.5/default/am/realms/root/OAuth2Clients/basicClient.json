@@ -1,7 +1,7 @@
 {
   "metadata" : {
     "realm" : "/",
-    "amsterVersion" : "6.5.1",
+    "amsterVersion" : "6.5.2",
     "entityType" : "OAuth2Clients",
     "entityId" : "basicClient",
     "pathParams" : { }
@@ -60,7 +60,7 @@
     },
     "coreOAuth2ClientConfig" : {
       "userpassword" : null,
-      "userpassword-encrypted" : "AAAAA0FFUwIQ8XBNaDz/PLQK/oDSHmwJOI9rspcfpEOX60ZG4jrgc9reMaLPPLV3IA==",
+      "userpassword-encrypted" : "AAAAA0FFUwIQ0KWwGcNJGxL+2e3gExMHElUEvFIkbPmLno25z1bHsXx5jACwu6Ymvg==",
       "authorizationCodeLifetime" : 0,
       "accessTokenLifetime" : 0,
       "defaultScopes" : [ ],

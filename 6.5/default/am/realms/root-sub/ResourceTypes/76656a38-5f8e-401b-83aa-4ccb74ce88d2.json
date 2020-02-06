@@ -1,7 +1,7 @@
 {
   "metadata" : {
     "realm" : "/sub",
-    "amsterVersion" : "6.5.1",
+    "amsterVersion" : "6.5.2",
     "entityType" : "ResourceTypes",
     "entityId" : "76656a38-5f8e-401b-83aa-4ccb74ce88d2",
     "pathParams" : { }
@@ -22,8 +22,8 @@
       "PATCH" : true
     },
     "createdBy" : "id=dsameuser,ou=user,ou=am-config",
-    "creationDate" : 1565866053740,
+    "creationDate" : 1581005640300,
     "lastModifiedBy" : "id=amadmin,ou=user,ou=am-config",
-    "lastModifiedDate" : 1565866064810
+    "lastModifiedDate" : 1581005646525
   }
 }

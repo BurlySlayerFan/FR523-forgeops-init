@@ -1,7 +1,7 @@
 {
   "metadata" : {
     "realm" : null,
-    "amsterVersion" : "6.5.1",
+    "amsterVersion" : "6.5.2",
     "entityType" : "OAuth2Provider",
     "entityId" : "OAuth2Provider",
     "pathParams" : { }
@@ -23,6 +23,7 @@
         "codeLifetime" : 120,
         "issueRefreshTokenOnRefreshedToken" : true,
         "issueRefreshToken" : true,
+        "accessTokenModificationScript" : "d22f9a0c-426a-4466-b95e-d0f125b0d5fa",
         "statelessTokensEnabled" : false
       },
       "coreOIDCConfig" : {
@@ -71,6 +72,11 @@
         "supportedUserInfoEncryptionAlgorithms" : [ "RSA-OAEP", "RSA-OAEP-256", "A128KW", "A256KW", "RSA1_5", "dir", "A192KW" ],
         "supportedTokenEndpointAuthenticationSigningAlgorithms" : [ "PS384", "RS384", "ES384", "HS256", "HS512", "ES256", "RS256", "HS384", "ES512", "PS256", "PS512", "RS512" ],
         "loaMapping" : { }
+      },
+      "cibaConfig" : {
+        "supportedCibaSigningAlgorithms" : [ "ES256", "PS256" ],
+        "cibaAuthReqIdLifetime" : 600,
+        "cibaMinimumPollingInterval" : 2
       },
       "consent" : {
         "enableRemoteConsent" : false,
