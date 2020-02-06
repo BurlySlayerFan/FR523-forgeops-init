@@ -1,7 +1,7 @@
 {
   "metadata" : {
     "realm" : null,
-    "amsterVersion" : "6.5.1",
+    "amsterVersion" : "6.5.2",
     "entityType" : "Realms",
     "entityId" : "Lw",
     "pathParams" : { }
@@ -11,6 +11,6 @@
     "parentPath" : null,
     "active" : true,
     "name" : "/",
-    "aliases" : [ "login.my-namespace.example.com", "am-config", "openam" ]
+    "aliases" : [ "login.my-namespace.example.com", "openam", "am-config" ]
   }
 }
